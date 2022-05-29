@@ -1,0 +1,48 @@
+.contentLeft{
+  width: 50%;
+  background: rgb(251, 251, 251);
+  padding: 20px;
+  &-top{
+    display: flex;
+    justify-content: space-between;
+    &__sorted{
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-search{
+    input{
+      font-size: 18px;
+      padding: 5px;
+      margin: 20px 0;
+    }
+
+  }
+  &-bottom{
+    display: flex;
+    flex-direction: column;
+    &__card{
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &-card{
+    &__title{
+      margin-bottom: 10px;
+    }
+    &__email{
+      margin-bottom: 5px;
+    }
+    &__company{
+      margin-bottom: 5px;
+    }
+    &__deleted{
+      max-width: 30px;
+    }
+  }
+}
+
+.wrapper{
+  display: flex;
+}

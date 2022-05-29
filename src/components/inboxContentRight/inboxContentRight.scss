@@ -1,0 +1,14 @@
+.contentRight{
+  max-width: 50%;
+  &-top{
+   height: 100px;
+   background: rgb(251, 251, 251);
+   &__name{
+     font-size: 30px;
+     padding: 20px 0 0 20px;
+   }
+  }
+  &-title{
+    margin-bottom: 30px;
+  }
+}
