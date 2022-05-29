@@ -5,6 +5,7 @@ import create from '../../images/icons/create.svg';
 import './navigation.scss';
 
 const Navigation = () => {
+
   return (
     <div className='navigation'>
 
@@ -19,6 +20,13 @@ const Navigation = () => {
           img={create}
           text='Send' />
       </NavLink>
+
+      <NavLink to="/contacts">
+        <NavButton
+          img={create}
+          text='Contacts' />
+      </NavLink>
+
     </div >
   )
 }

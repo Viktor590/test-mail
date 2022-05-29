@@ -22,7 +22,6 @@ const InboxContentLeft = () => {
 
   const onUsersData = (arr) => {
     setData(arr)
-    console.log(arr)
   }
 
   function sortArray(x, y) {
