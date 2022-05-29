@@ -1,0 +1,16 @@
+.button{
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &-wrapper{
+    font-size: 25px;
+    padding: 15px;
+    color:black;
+    display: flex;
+    align-items: center;
+  }
+  &-img{
+    max-width: 25px;
+    margin-right: 20px;
+  }
+}
