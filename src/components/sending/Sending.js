@@ -13,7 +13,6 @@ const Sending = () => {
   const [message, setMessage] = useState('')
   const [showMessage, setShowMessage] = useState(false)
 
-
   useEffect(() => {
     getAllUsers()
       .then(onUsersEmail)

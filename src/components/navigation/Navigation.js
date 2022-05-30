@@ -21,12 +21,6 @@ const Navigation = () => {
           text='Send' />
       </NavLink>
 
-      <NavLink to="/contacts">
-        <NavButton
-          img={create}
-          text='Contacts' />
-      </NavLink>
-
     </div >
   )
 }

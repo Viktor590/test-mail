@@ -55,7 +55,6 @@ const InboxContentLeft = () => {
       .then(setData(data.filter((item) => (item.id !== value))))
   }
 
-
   const userCards = useMemo(() =>
     data.map((el, id) => {
       return (

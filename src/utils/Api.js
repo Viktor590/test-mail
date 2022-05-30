@@ -1,5 +1,7 @@
 
 export default async function Api(url, data = {}) {
+
+
   try {
     if (!data.headers) data.headers = {};
 
@@ -12,4 +14,5 @@ export default async function Api(url, data = {}) {
   } catch (err) {
     return Promise.reject(err);
   }
+
 }
